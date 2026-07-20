@@ -54,11 +54,7 @@ footer {
     object-fit: cover;
     border: 4px solid #0077b6;
 }
-.dark-mode a {
-    color: lightblue;
-}
-
-.dark-mode button {
-    background-color: gray;
+.dark-mode {
+    background-color: black;
     color: white;
 }

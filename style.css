@@ -58,3 +58,64 @@ footer {
     background-color: black;
     color: white;
 }
+
+/* Certifications Section */
+
+.certifications {
+    background-color: #f0f4f8;
+    padding: 40px 20px;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.certifications h2 {
+    color: #0077b6;
+    font-size: 28px;
+}
+
+.certifications h3 {
+    color: #023e8a;
+    margin-top: 25px;
+}
+
+.certifications p {
+    color: #333;
+    font-size: 16px;
+}
+
+.certifications a {
+    display: inline-block;
+    background-color: #0077b6;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.certifications a:hover {
+    background-color: #023e8a;
+}
+
+/* Improve certification appearance in dark mode */
+
+.dark-mode .certifications {
+    background-color: #1e293b;
+}
+
+.dark-mode .certifications h2,
+.dark-mode .certifications h3,
+.dark-mode .certifications p {
+    color: white;
+}
+
+/* Remove unwanted bullet points */
+
+.hero ul {
+    list-style: none;
+    padding-left: 0;
+}
